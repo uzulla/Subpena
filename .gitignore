@@ -1,7 +1,2 @@
-config.pl
-MYMETA.*
-Makefile
-Makefile.old
-pm_to_blib
-blib/
-local/
+/config.pl
+/extlib

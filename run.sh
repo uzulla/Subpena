@@ -1,2 +1,3 @@
 #!/bin/sh
-carton exec -- perl -Ilib script/worker.pl
+export PERL5LIB=extlib/lib/perl5
+perl script/worker.pl
