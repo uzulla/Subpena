@@ -40,7 +40,7 @@ $ur->run(sub {
             return;
         }
 
-        if($text =~ /^(@[a-z_0-9]{1,15})/){
+        if($text =~ /^(@[a-zA-Z_0-9]{1,15})/){
             my $name = $1;
             $text =~ s/@/(at)/g;
             $text = substr($text,0,100);
